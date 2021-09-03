@@ -8,8 +8,48 @@
 			font-size: 19;
 			font-family: monospace;
 		}
+		h2{
+			color: navy;
+			font-family: sans-serif;
+			text-align: center;
+
+		}
+		p {
+			color: blue;
+			text-decoration-color: darkolivegreen;
+			font-family: monospace;
+		}
 		img{
 			border-radius: 5px;
 			border: 2px solid yellow;
+			background-position: bottom;
 		}
-	
+		ul{
+			text-align:;
+
+		}
+		/*unvisted link*/
+	a:link{
+		color: maroon;
+	}
+	/*visted link*/
+a:visited{
+	color: green;
+}
+/*mouse over it*/
+a:hover{
+	color: blue;
+}
+/*active link*/
+a:active{
+	color: yellowgreen;
+}
+table, th, td{
+	border: yellowgreen 2px solid;
+	color: maroon;
+	font: italic;
+	padding: all;
+}
+th,td{
+	position: sticky;
+}
